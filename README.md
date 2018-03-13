@@ -16,8 +16,6 @@ The aim of this project is to provide a software development environment based o
 
 # Usage
 
-There is a example project (taken from the SIMPLELINK-CC13X0-SDK) inlcuded under src/uartecho which shows how the this toolset can be used for your own projects.
-
 Add this project as git submodule to your repository:
 
     git submodule add https://github.com/jobroe/cmake-arm-embedded.git cmake

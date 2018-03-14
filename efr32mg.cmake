@@ -1,5 +1,5 @@
 ##
-## Authors:  Johannes Bruder
+## Author:   Johannes Bruder
 ## License:  See LICENSE.TXT file included in the project
 ##
 ##
@@ -8,11 +8,11 @@
 
 if(NOT DEFINED LINKER_SCRIPT)
     message(FATAL_ERROR "No linker script defined")
-    endif(NOT DEFINED LINKER_SCRIPT)
+endif(NOT DEFINED LINKER_SCRIPT)
 message("Linker script: ${LINKER_SCRIPT}")
 
 #---------------------------------------------------------------------------------------
-# Set target compiler/linker flags
+# Set target specific compiler/linker flags
 #---------------------------------------------------------------------------------------
 
 # Object build options
